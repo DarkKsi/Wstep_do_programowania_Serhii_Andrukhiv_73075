@@ -1,0 +1,1 @@
+wiek = int(input("Ile masz lat?:" ))

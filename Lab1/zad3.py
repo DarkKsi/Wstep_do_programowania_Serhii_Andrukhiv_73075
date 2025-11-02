@@ -1,15 +1,17 @@
 imie = "Serhii"
-kierunek = "Cyberbezpieczestwo"
+kierunek = "cyberbezpieczeństwo"
 uczelnia = "WSIiZ"
 
-#print(imie, kierunek, uczelnia)
+print("Nazywam się " + imie + ".")
+print("Studiuję kierunek " + kierunek + ".")
+print("Moja uczelnia to " + uczelnia + ".")
 
-#print("Nazywam sie: " + imie)
-
-#print("Nazywam sie", imie)
-#print("Nazywam sie", imie, sep='_', end='!')
-#print()
-
-#print(F"Nazywam sie: {imie}")
-
-print(F"Nazywam sie {imie}, ucze sie w {uczelnia} na kierunku {kierunek}.")
+'''
+Funkcja print() w Pythonie służy do wyświetlania danych w konsoli.
+Przyjmuje argumenty:
+- *objects: wartości do wyświetlenia (mogą być oddzielone przecinkami)
+- sep: separator między wartościami (domyślnie ' ')
+- end: co ma być dodane na końcu (domyślnie nowa linia '\n')
+- file: obiekt pliku, do którego ma być zapisany tekst
+- flush: czy wymusić natychmiastowe zapisanie (True/False)
+'''

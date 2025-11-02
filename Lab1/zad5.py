@@ -1,10 +1,13 @@
-a = float(input("Podaj dlugosc pierwszego bloku: "))
-b = float(input("Podaj dlugosc drugiego bloku: "))
-
-#print(type(a))
-#print(a+2)
+a = float(input("Podaj długość pierwszego boku prostokąta: "))
+b = float(input("Podaj długość drugiego boku prostokąta: "))
 
 pole = a * b
-dow = 2 * (a + b)
+obwod = 2 * (a + b)
 
-print(pole, dow)
+print(f"Pole prostokąta wynosi: {pole}")
+print(f"Obwód prostokąta wynosi: {obwod}")
+
+'''
+Funkcja input() służy do pobierania danych od użytkownika.
+W nawiasie można podać tekst, który zostanie wyświetlony jako pytanie.
+'''

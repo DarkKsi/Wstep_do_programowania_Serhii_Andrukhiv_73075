@@ -1,8 +1,11 @@
-oilPrice = 6.5
+dystans = float(input("Podaj długość trasy (w km): "))
+spalanie = float(input("Podaj średnie spalanie (w litrach na 100 km): "))
 
-way = float(input("Twoja przebyta droga: "))
-oilConsumption = float(input("Twoja zuzycie paliwa: ")) / 100
+cena_paliwa = 6.5
 
-print(way * oilConsumption)
-print(oilConsumption * oilPrice)
+zuzycie = (dystans * spalanie) / 100
+koszt = zuzycie * cena_paliwa
+
+print(f"\nPrzewidywane zużycie paliwa: {zuzycie:.2f} litrów")
+print(f"Szacowany koszt podróży: {koszt:.2f} zł")
 
